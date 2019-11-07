@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "73B88852231CAF3000623476"
-               BuildableName = ".app"
+               BuildableName = "XEBase.app"
                BlueprintName = "i84zcc"
                ReferencedContainer = "container:i84zcc.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73B88852231CAF3000623476"
-            BuildableName = ".app"
+            BuildableName = "XEBase.app"
             BlueprintName = "i84zcc"
             ReferencedContainer = "container:i84zcc.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73B88852231CAF3000623476"
-            BuildableName = ".app"
+            BuildableName = "XEBase.app"
             BlueprintName = "i84zcc"
             ReferencedContainer = "container:i84zcc.xcodeproj">
          </BuildableReference>
