@@ -1,0 +1,13 @@
+//
+//  GuildViewController.h
+//  OrangeLife
+//
+//  Created by OrangeLife on 15/11/19.
+//  Copyright © 2015年 Shenme Studio. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface GuildViewController : UIViewController
+
+@end

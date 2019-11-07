@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  i84zcc
+
+  Created by 小二 on 2019/10/21.
+  Copyright © 2019 小二. All rights reserved.
+*/
+
+"Log In" = "登录繁体";
+"Please enter a user name" = "请输入用户名繁体" ;
+"Please enter a password" = "请输入密码繁体"  ;

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  i84zcc
+//
+//  Created by 小二 on 2019/9/2.
+//  Copyright © 2019年 小二. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// my
+#import "Macros.h"
+#import "SCUtils.h"
+#import "XEUIHeader.h"
+#import "XENetwork.h"
+#import "ZCConst.h"
+#import "UIViewController+ZCBase.h"
+
+// 3th
+#import "Masonry.h"
+#import "CTMediator.h"
+#import "YYText.h"
+#import "NSObject+YYModel.h"
+
+//category
+#import "MBProgressHUD+XE.h"
+
+#endif /* PrefixHeader_pch */

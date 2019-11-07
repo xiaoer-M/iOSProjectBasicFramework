@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  i84zcc
+
+  Created by 小二 on 2019/10/21.
+  Copyright © 2019 小二. All rights reserved.
+*/
+
+// 登录
+"Log In" = "登录";
+"Please enter a user name" = "请输入用户名";
+"Please enter a password" = "请输入密码";
+"Log In succeeded" = "登录成功";
+
+// 点名
+"RollCall" = "点名";
+"The line is over" = "该线路已完结";
+"Confirm" = "确定";
+"Cancel" = "取消";
+"Current device date-time is abnormal, please correct and start roll call" = "当前设备日期-时间存在异常，请校正后开始点名";
+"Delete line" = "删除线路";
+"Are you sure you want to delete the route?" = "是否确认删除该路线！";
+"Add line" = "添加线路";
+"Submit" = "提交";
+"In progress" = "提交中...";
+"Submit success" = "提交成功";
+"Line code:" = "线路码：";
+"Please enter the line code" = "请输入线路码";
+"Add success" = "添加成功";
+"Delete success" = "删除成功";
+"Route rollCall" = "路线点名";
+"Go rollCall" = "进入点名";
+"Resetting" = "重置";
+"Point out" = "提示";
+"No passengers on board, unable to switch to alight" = "无已上车乘客，无法切换到已下车";
+"Fine" = "好的";
+"Initials query supported" = "支持首字母查询";
+"Please select" = "请选择";
+"Contact parent" = "联系家长";
+"License plate number cannot be empty" = "车牌号不能为空";
+"Please enter the correct license plate number" = "请输入正确的车牌号";
+"Caretaker" = "照管员";
+"Plate number" = "车牌号";
+"Replacement of vehicles" = "更换车辆";
+"Replace success" = "更换成功";
+"Go up rollCall" = "上车点名";
+"Go down rollCall" = "下车点名";
+"No rollCall" = "未点名";
+"Check all" = "全选";
+"Has been rollCall (pre - rollCall)" = "已点名（预点名）";
+"Confirmation of reset will clear the currently named list data. Are you sure to reset the roll call data?" = "确认重置后将清除当前已点名名单数据，是否确认重置点名数据？";
+"Affirm" = "确认";
+
+
+// 我的
+"Me" = "我的";
+"Exit" = "退出";
+"Modify the password" = "修改密码";
+"Current version" = "当前版本";
+"Please enter the original password" = "请输入原密码";
+"Please enter a new password" = "请输入新密码";
+"Please confirm the new password" = "请确认新密码";
+"Verify that the password does not match the new password input" = "确认密码与新密码输入不一致";
+"Modify success" = "修改成功";
+"Exit success" = "退出成功";
+"Emergency contact" = "紧急联系人";
+"Rider" = "乘车人";
+"Contact way" = "联系方式";
+"Family relation" = "亲属关系";
+
+// 版本更新
+"Latest version" = "最新版本";
+"The updated version uses more features, experiences the new interface, responds faster, is more efficient, and has a better experience." = "更新版本使用更多功能，体验新界面，响应更快，效率更高，体验更好。";
+"Update now" = "立即更新";
+
+
+// 扫码
+"Sweep" = "扫一扫";
