@@ -36,6 +36,10 @@ xcuserdata/
 #
 Pods/
 /Podfile.lock
+*.xcworkspace
+*.a
+*.xcuserstate
+
 
 # Carthage
 #
