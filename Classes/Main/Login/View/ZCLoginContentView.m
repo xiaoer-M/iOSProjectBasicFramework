@@ -7,6 +7,7 @@
 //
 
 #import "ZCLoginContentView.h"
+#import "ZCTestView.h"
 
 static const CGFloat textFiledHeight = 40;
 static const CGFloat loginBtnHeight = 44;
@@ -16,6 +17,7 @@ static const CGFloat loginBtnHeight = 44;
 @property (nonatomic, strong) UITextField *accountTF;
 @property (nonatomic, strong) UITextField *passwordTF;
 @property (nonatomic, strong) UIButton *loginBtn;
+@property (nonatomic, strong) ZCTestView *testView;
 
 @end
 
@@ -35,6 +37,7 @@ static const CGFloat loginBtnHeight = 44;
     [self addSubview:self.accountTF];
     [self addSubview:self.passwordTF];
     [self addSubview:self.loginBtn];
+    [self addSubview:self.testView];
     
     [self.logoImgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self).offset(50);
@@ -160,6 +163,13 @@ static const CGFloat loginBtnHeight = 44;
         _loginBtn.layer.masksToBounds = YES;
     }
     return _loginBtn;
+}
+
+- (ZCTestView *)testView {
+    if (!_testView) {
+        _testView = [[ZCTestView alloc] initWithFrame:CGRectMake(50, 100, 50, 50)];
+    }
+    return _testView;
 }
 
 @end

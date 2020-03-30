@@ -14,6 +14,8 @@
 		73208780231FB9A100DF6C46 /* UIButton+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320877F231FB9A100DF6C46 /* UIButton+Factory.m */; };
 		73208783231FB9CA00DF6C46 /* UIImage+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73208782231FB9CA00DF6C46 /* UIImage+Factory.m */; };
 		732087902320F91400DF6C46 /* UIView+MyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320878F2320F91400DF6C46 /* UIView+MyFrame.m */; };
+		7327BC732431E658007847E5 /* UIResponder+ZCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327BC722431E658007847E5 /* UIResponder+ZCRouter.m */; };
+		7327BC762431EF0E007847E5 /* ZCTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327BC752431EF0E007847E5 /* ZCTestView.m */; };
 		734D4473233211C200524E47 /* XECheckUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 734D4472233211C200524E47 /* XECheckUpdateView.m */; };
 		734D4476233211E300524E47 /* XECheckUpdateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 734D4475233211E300524E47 /* XECheckUpdateTool.m */; };
 		7352BC27236FBFAE000B8A5B /* GuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7352BC26236FBFAE000B8A5B /* GuildViewController.m */; };
@@ -98,6 +100,10 @@
 		73208784231FBFEA00DF6C46 /* XEUIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XEUIHeader.h; sourceTree = "<group>"; };
 		7320878E2320F91400DF6C46 /* UIView+MyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyFrame.h"; sourceTree = "<group>"; };
 		7320878F2320F91400DF6C46 /* UIView+MyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyFrame.m"; sourceTree = "<group>"; };
+		7327BC712431E658007847E5 /* UIResponder+ZCRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+ZCRouter.h"; sourceTree = "<group>"; };
+		7327BC722431E658007847E5 /* UIResponder+ZCRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+ZCRouter.m"; sourceTree = "<group>"; };
+		7327BC742431EF0E007847E5 /* ZCTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCTestView.h; sourceTree = "<group>"; };
+		7327BC752431EF0E007847E5 /* ZCTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTestView.m; sourceTree = "<group>"; };
 		734D4471233211C200524E47 /* XECheckUpdateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XECheckUpdateView.h; sourceTree = "<group>"; };
 		734D4472233211C200524E47 /* XECheckUpdateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XECheckUpdateView.m; sourceTree = "<group>"; };
 		734D4474233211E300524E47 /* XECheckUpdateTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XECheckUpdateTool.h; sourceTree = "<group>"; };
@@ -131,7 +137,7 @@
 		739067AF2321106100ED980F /* ZCLoginContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCLoginContentView.m; sourceTree = "<group>"; };
 		73A9374E23385EF1005D0415 /* ZCUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCUserModel.h; sourceTree = "<group>"; };
 		73A9374F23385EF1005D0415 /* ZCUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCUserModel.m; sourceTree = "<group>"; };
-		73B88853231CAF3000623476 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B88853231CAF3000623476 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = .app; path = XEBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B88856231CAF3000623476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73B88857231CAF3000623476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		73B8886B231CAF3200623476 /* i84zccTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = i84zccTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -399,6 +405,8 @@
 				7362700C232A46B800D6D6AB /* MBProgressHUD+XE.m */,
 				73FB5112233DEBAA00176F64 /* NSString+Category.h */,
 				73FB5113233DEBAA00176F64 /* NSString+Category.m */,
+				7327BC712431E658007847E5 /* UIResponder+ZCRouter.h */,
+				7327BC722431E658007847E5 /* UIResponder+ZCRouter.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -562,6 +570,8 @@
 			children = (
 				739067AE2321106100ED980F /* ZCLoginContentView.h */,
 				739067AF2321106100ED980F /* ZCLoginContentView.m */,
+				7327BC742431EF0E007847E5 /* ZCTestView.h */,
+				7327BC752431EF0E007847E5 /* ZCTestView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -894,10 +904,12 @@
 				738F2A7F2330CF1000416D2E /* UIAlertController+Factory.m in Sources */,
 				739067AD232107C400ED980F /* ZCBaesNaVController.m in Sources */,
 				73B88909231E017F00623476 /* XENetworkRequestEngine.m in Sources */,
+				7327BC762431EF0E007847E5 /* ZCTestView.m in Sources */,
 				73B88900231D131900623476 /* main.m in Sources */,
 				73B888FC231D12FB00623476 /* LSAdvertView.m in Sources */,
 				73B8890F231E01B600623476 /* XENetworkDownloadEngine.m in Sources */,
 				73FB1F5C233090A90077BD80 /* XECodeScanView.m in Sources */,
+				7327BC732431E658007847E5 /* UIResponder+ZCRouter.m in Sources */,
 				7320877D231FB98A00DF6C46 /* UILabel+Factory.m in Sources */,
 				73B88906231E015900623476 /* XENetworkManager.m in Sources */,
 				73B88940231F98F700623476 /* NullSafe.m in Sources */,

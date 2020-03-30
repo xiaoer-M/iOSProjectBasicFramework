@@ -8,6 +8,7 @@
 
 #import "ZCTabBarController.h"
 #import "ZCBaesNaVController.h"
+#import "ZCLoginViewController.h"
 
 @interface ZCTabBarController ()
 
@@ -25,7 +26,7 @@
     [rollCallNav setTabBarItem:[self createTabbarItemWithTitle:NSLocalizedString(@"RollCall", nil) imagePath:@"rollcall_normal" selectedImagePath:@"rollcall_selected"]];
 
     /*我的*/
-    UIViewController *meVC = [[UIViewController alloc] init];
+    ZCLoginViewController *meVC = [[ZCLoginViewController alloc] init];
     ZCBaesNaVController *meNav = [[ZCBaesNaVController alloc] initWithRootViewController:meVC];
     [meNav setTabBarItem:[self createTabbarItemWithTitle:NSLocalizedString(@"Me", nil) imagePath:@"me_normal" selectedImagePath:@"me_selected"]];
 

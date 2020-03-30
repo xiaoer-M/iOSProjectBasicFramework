@@ -11,6 +11,7 @@
 
 #import "ZCLoginModel.h"
 #import "ZCLoginTool.h"
+#import "UIResponder+ZCRouter.h"
 
 @interface ZCLoginViewController ()<ZCLoginContentViewDelegate>
 @property (nonatomic, strong) ZCLoginContentView *contentView;
@@ -36,6 +37,10 @@
     [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+}
+
+- (void)routerEventWithName:(NSString *)eventName userInfo:(NSObject *)userInfo {
+    NSLog(@"神奇的响应链%s, eventName:%@",__func__,eventName);
 }
 
 #pragma mark - ZCLoginContentViewDelegate
